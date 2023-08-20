@@ -8,7 +8,7 @@ information about each file on the main, styles & features folders_
 ### Important CSS files
 
 
-**main-menu.css**: Gives all the scrolling options to the main site, the page the moves up and down, the header, and side menu on mobile devices.
+**main-menu.css**: Gives all the scrolling options to the main site, _the page_ that moves up and down, _the header_, and _side menu_ on mobile devices.
 
 **styles.css**: It syles the main section, the letters and background of the presentation page.
 
