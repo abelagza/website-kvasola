@@ -1,0 +1,174 @@
+:root {
+    --dark-gradient: linear-gradient(rgba(84, 84, 84, 0.2), rgba(84, 84, 84, 0.2));
+    --light-gradient: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    --transition-speed: 0.8s;
+    --white-color: #fff;
+    --gray-color:  black;
+    --border-radius-value: 50px;
+}
+
+
+/* REUSABLE COMPONENTS */
+
+.header-two {
+    color: var(--gray-color);
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-three {
+    font-size: 2.5em;
+    margin: 2.75em 0 2.75em 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragraph-text {
+    color: var(--white-color);
+    margin-bottom: 0.625em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link-text {
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--white-color);
+    border-radius: var(--border-radius-value);
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MAIN */
+
+
+.section-content {
+    background: var(--white-color);
+    border: 1px solid var(--white-color);
+    border-radius: var(--border-radius-value);
+    width: 100%;
+}
+
+.top-text, .content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-text {
+    height: 30%;
+    align-items: baseline;
+}
+
+.content-wrapper {
+    height: 70%;
+    text-align: center;
+    flex-direction: row;
+}
+
+.box {
+    width: 18.614em;
+    height: 14.75em;
+    margin: 0 1.036em;
+    border: 1px hidden;
+    position: relative;
+}
+
+.box-1{
+    background-image: var(--light-gradient), url(/images-vids/palms-miami.png);
+    border-radius: 0 var(--border-radius-value) 0 var(--border-radius-value);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.box-2 {
+    background: var(--light-gradient), url(/images-vids/buildings-new-york.png);
+    border-radius: var(--border-radius-value) 0 var(--border-radius-value) 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
+.box-3 {
+    background: var(--light-gradient), url(/images-vids/buildings-dallas.png);
+    border-radius: 0 var(--border-radius-value) 0 var(--border-radius-value);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.box-4 {
+    background: var(--light-gradient), url(/images-vids/palms-cancun.png);
+    border-radius: var(--border-radius-value) 0 var(--border-radius-value) 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.box .first, .box .second {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .second {
+    opacity: 0;
+    backface-visibility: hidden;
+    position: relative;
+    border: 1px solid var(--white-color);
+    flex-direction: column;
+    pointer-events: none;
+}
+
+.box:hover .second {
+    opacity: 1;
+    transition: opacity var(--transition-speed);
+}
+
+.box:hover .first {
+    display: none;
+    opacity: 0;
+}
+
+.box-1:hover {
+    background-image: var(--dark-gradient), url(/images-vids/palms-miami.png);
+    transition: background-image var(--transition-speed);
+}
+
+.box-2:hover {
+    background: var(--dark-gradient), url(/images-vids/buildings-new-york.png); 
+    transition: background-image var(--transition-speed);
+}
+
+.box-3:hover {
+    background-image: var(--dark-gradient), url(/images-vids/buildings-dallas.png);
+    transition: background-image var(--transition-speed);
+}
+
+
+.box-4:hover {
+    background-image: var(--dark-gradient), url(/images-vids/palms-cancun.png);
+    transition: background-image var(--transition-speed);
+}
+
+/* Media queries */ 
+
+@media screen and (max-width: 31.25em) {
+    body {
+        height: auto;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-height: 31.25em) {
+    body {
+        height: auto;
+    }
+}
