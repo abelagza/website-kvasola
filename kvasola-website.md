@@ -10,14 +10,14 @@ information about each file on the main, styles & features folders_
 
 **main-menu.css**: Gives all the scrolling options to the main site, the page the moves up and down, the header, and side menu on mobile devices.
 
-**styles.css**: Syles the main section, the letters and background of the presentation page.
+**styles.css**: It syles the main section, the letters and background of the presentation page.
 
 
 ### Other CSS Files
 
-**font-effect-style.css**
+**font-effect-style.css**: It styles the Main Fonts on the presentation page, and the color effect to the <a> tags.
 
-**fonts.css**
+**fonts.css**: Local Font styles. (Monserrat font)
 
 
 ### Scroller
