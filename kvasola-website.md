@@ -55,3 +55,4 @@ information about each file on the main, styles & features folders_
 
 
 
+## JavaScript Files and Functionality
