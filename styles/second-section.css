@@ -75,7 +75,7 @@
 }
 
 .box-1{
-    background-image: var(--light-gradient), url(https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/palms-miami.png);
+    background-image: var(--light-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/palms-miami.png");
     border-radius: 0 var(--border-radius-value) 0 var(--border-radius-value);
     background-repeat: no-repeat;
     background-position: center center;
@@ -83,7 +83,7 @@
 }
 
 .box-2 {
-    background: var(--light-gradient), url(https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/buildings-new-york.png);
+    background: var(--light-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/buildings-new-york.png");
     border-radius: var(--border-radius-value) 0 var(--border-radius-value) 0;
     background-repeat: no-repeat;
     background-position: center center;
@@ -93,7 +93,7 @@
 
 
 .box-3 {
-    background: var(--light-gradient), url(https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/buildings-dallas.png);
+    background: var(--light-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/buildings-dallas.png");
     border-radius: 0 var(--border-radius-value) 0 var(--border-radius-value);
     background-repeat: no-repeat;
     background-position: center center;
@@ -101,7 +101,7 @@
 }
 
 .box-4 {
-    background: var(--light-gradient), url(https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/palms-cancun.png);
+    background: var(--light-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/palms-cancun.png");
     border-radius: var(--border-radius-value) 0 var(--border-radius-value) 0;
     background-repeat: no-repeat;
     background-position: center center;
