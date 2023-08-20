@@ -32,26 +32,26 @@ information about each file on the main, styles & features folders_
 
 **third-section.css**
 
-[Here you are going to find documentation for the following Section](md-docs/services.png)
+[Here you are going to find the code for the following Section](md-docs/services.png)
 
 **fourth-section.css**
 
-[Here you are going to find documentation for the following Section](md-docs/the-team.png)
+[Here you are going to find the code for the following Section](md-docs/the-team.png)
 
 
 **fifth-section.css**
 
-[Here you are going to find documentation for the following Section](md-docs/scroller.png)
+[Here you are going to find the code for the following Section](md-docs/scroller.png)
 
 
 **sixth-section.css**
 
-[Here you are going to find documentation for the following Section](md-docs/clients.png)
+[Here you are going to find the code for the following Section](md-docs/clients.png)
 
 
 **seventh-section.css**
 
-[Here you are going to find documentation for the following Section](md-docs/footer.png)
+[Here you are going to find the code for the following Section](md-docs/footer.png)
 
 
 
