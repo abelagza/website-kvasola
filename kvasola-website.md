@@ -56,3 +56,8 @@ information about each file on the main, styles & features folders_
 
 
 ## JavaScript Files and Functionality
+
+
+**pusher-feature.js**: On mobile devices, it displays the left side menu.
+
+**scroll-effect.js**: Scrolls up, and displays the main page when clicking on the HOME button. It also slows down the scroll up effect.
