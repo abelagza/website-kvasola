@@ -2,7 +2,7 @@
 
 
 **Kvasola** Is a marketing agency. _This documentation aims to provide context and
-information about each file on the folder_ 
+information about each file on the main, styles & features folders_
 
 
 
