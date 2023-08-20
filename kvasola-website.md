@@ -15,7 +15,7 @@ information about each file on the main, styles & features folders_
 
 ### Other CSS Files
 
-**font-effect-style.css**: It styles the Main Fonts on the presentation page, and the color effect to the <a> tags.
+**font-effect-style.css**: It styles the Main Fonts on the presentation page, and the color effect of the < a > tags.
 
 **fonts.css**: Local Font styles. (Monserrat font)
 
