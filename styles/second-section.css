@@ -136,23 +136,23 @@
 }
 
 .box-1:hover {
-    background-image: var(--dark-gradient), url(/images-vids/palms-miami.png);
+    background-image: var(--dark-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/palms-miami.png");
     transition: background-image var(--transition-speed);
 }
 
 .box-2:hover {
-    background: var(--dark-gradient), url(/images-vids/buildings-new-york.png); 
+    background: var(--dark-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/buildings-new-york.png"); 
     transition: background-image var(--transition-speed);
 }
 
 .box-3:hover {
-    background-image: var(--dark-gradient), url(/images-vids/buildings-dallas.png);
+    background-image: var(--dark-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/buildings-dallas.png");
     transition: background-image var(--transition-speed);
 }
 
 
 .box-4:hover {
-    background-image: var(--dark-gradient), url(/images-vids/palms-cancun.png);
+    background-image: var(--dark-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/palms-cancun.png");
     transition: background-image var(--transition-speed);
 }
 
