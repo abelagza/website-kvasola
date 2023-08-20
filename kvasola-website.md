@@ -8,9 +8,16 @@ information about each file on the main, styles & features folders_
 ### Important CSS files
 
 
-**main-menu.css**: Givess all the scrolling options, the page the moves up and down.
+**main-menu.css**: Gives all the scrolling options to the main site, the page the moves up and down, the header, and side menu on mobile devices.
 
 **styles.css**: Syles the main section, the letters and background of the presentation page.
+
+
+### Other CSS Files
+
+**font-effect-style.css**
+
+**fonts.css**
 
 
 ### Scroller
@@ -47,9 +54,4 @@ information about each file on the main, styles & features folders_
 [Here you are going to find documentation for the following Section](md-docs/footer.png)
 
 
-### Other Sections
-
-**font-effect-style.css**
-
-**fonts.css**
 
