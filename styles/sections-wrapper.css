@@ -1,0 +1,37 @@
+.sample-section {
+    width: 100vw;
+}
+
+#services-sct {
+    width: 100vw;
+}
+
+.services-2 {
+    width: 100vw;
+    height: 862px;
+    background-color: #E40303;
+}
+
+.the-team {
+    width: 100vw;
+    height: 896px;
+    background-color: #FF8C00;
+}
+
+.latest-work {
+    width: 100vw;
+    height: 1115.94px;
+    background-color: #FFED00;
+}
+
+.customer-feedback {
+    width: 100vw;
+    height: 885px;
+    background-color: #008026;
+}
+
+.footer-section {
+    width: 100vw;
+    height: 618px;
+    background-color: #24408E;
+}
