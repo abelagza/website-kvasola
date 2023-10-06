@@ -46,9 +46,13 @@
     border: 1px solid var(--white-color);
     border-radius: var(--border-radius-value);
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.top-text, .content-wrapper {
+.top-text {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -63,13 +67,15 @@
 .content-wrapper {
     height: 70%;
     text-align: center;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns for desktop */
+    gap: 50px; 
+    width: 80%;
 }
 
 .box {
-    width: 18.614em;
+    width: 100%;
     height: 14.75em;
-    margin: 0 1.036em;
     border: 1px hidden;
     position: relative;
 }
@@ -88,9 +94,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
 }
-
 
 .box-3 {
     background: var(--light-gradient), url("https://raw.githubusercontent.com/abelagza/website-kvasola/main/images-vids/buildings-dallas.png");
@@ -108,7 +112,7 @@
     background-size: cover;
 }
 
-.box .first, .box .second {
+.box .first {
     width: 100%;
     height: 100%;
     display: flex;
@@ -120,9 +124,13 @@
     opacity: 0;
     backface-visibility: hidden;
     position: relative;
-    border: 1px solid var(--white-color);
     flex-direction: column;
     pointer-events: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box:hover .second {
@@ -171,4 +179,44 @@
     body {
         height: auto;
     }
+}
+
+
+/* Tablet adjustments */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .content-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for tablet */
+        gap: 40px;
+        width: 90%;
+    }
+    .box-1 {
+        justify-self: right ;
+    }
+    .box-2 {
+        justify-self: left;
+    }
+    .box-3 {
+        border-radius: var(--border-radius-value) 0 var(--border-radius-value) 0; /* Adjusted for top left corner */
+        justify-self: right;
+    }
+    .box-4 {
+        border-radius: 0 var(--border-radius-value) 0 var(--border-radius-value); /* Adjusted for top right corner */
+        justify-self: left;
+    }
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 767px) {
+    .content-wrapper {
+        grid-template-columns: 1fr; /* One column for mobile */
+        width: 100%;
+        gap: 50px;
+    }
+
+.header-three {
+    font-size: 1.2rem;
+    margin: 2.75em 0 2.75em 0;
+    font-family: 'Poppins', sans-serif;
+}
+
 }
