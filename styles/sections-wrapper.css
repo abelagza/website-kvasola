@@ -10,29 +10,29 @@
 .services-2 {
     width: 100vw;
     height: 862px;
-    background-color: #E40303;
+    border: #E40303 1px solid;
 }
 
 .the-team {
     width: 100vw;
     height: 896px;
-    background-color: #FF8C00;
+    border: #FF8C00 1px solid;
 }
 
 .latest-work {
     width: 100vw;
     height: 1115.94px;
-    background-color: #FFED00;
+    border: #FFED00 1px solid;
 }
 
 .customer-feedback {
     width: 100vw;
     height: 885px;
-    background-color: #008026;
+    border: #008026 1px solid;
 }
 
 .footer-section {
     width: 100vw;
     height: 618px;
-    background-color: #24408E;
+    border: #24408E 1px solid;
 }

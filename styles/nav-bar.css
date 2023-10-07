@@ -1,0 +1,111 @@
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 15vh;
+    color: black;
+    background-color: transparent;
+    z-index: 99999;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.5s ease;
+    justify-content: space-evenly;  
+    width: 100vw;
+  }
+  .icon-logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+  }
+  .main-header-menu {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+  .empty-container {
+    width: 20%;
+  }
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .menu {
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .menu a {
+    padding: 0 25px;
+  }
+  .menu a:hover {
+    color: #c5cae9;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .header {
+      position: fixed;
+      z-index: 99999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .header__icon {
+      position: relative;
+      display: flex;
+      float: left;
+      width: 50px;
+      height: 100%;
+      cursor: pointer;
+    }
+    .header__logo object {
+      display: none;
+    }
+    .icon-logo {
+      width: 100%;
+      display: flex;
+      justify-content: left;
+    }
+    .main-header-menu { 
+      width: 0%;
+    }
+    .empty-container {
+      width: 0%;
+    }
+    .header__icon:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 1rem;
+      height: 0;
+      top: 16px;
+      left: 15px;
+      -webkit-box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+      -moz-box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+      box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+    }
+    .menu {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background-color: transparent;
+      width: 250px;
+      -webkit-transform: translateX(-250px);
+      -moz-transform: translateX(-250px);
+      -ms-transform: translateX(-250px);
+      -o-transform: translateX(-250px);
+      transform: translateX(-250px);
+    }
+    .menu a {
+      display: block;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+    }
+  }
+  
