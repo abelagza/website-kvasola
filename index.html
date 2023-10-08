@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="styles/bas.container {
+  overflow: hidden;
+  *zoom: 1;
+  width: 100%;
+}.css"
+    />
     <link rel="stylesheet" href="styles/base-structure.css" />
     <link rel="stylesheet" href="styles/presentation-page.css" />
     <link rel="stylesheet" href="styles/nav-bar.css" />
@@ -145,8 +153,8 @@
                     </div>
                   </div>
                 </div>
-                <!-- Start if Services-section -->
-                <div id="services-sct" class="main section">
+                <!-- Start of Services-section -->
+                <div id="diverse-markets" class="main section">
                   <div class="section-content">
                     <div class="top-text">
                       <h3 class="header-three">
@@ -206,15 +214,15 @@
                   </div>
                 </div>
                 <!-- Start if Services-section-2 -->
-                <div class="services-2"></div>
+                <div class="services"></div>
                 <!-- Start if the-team -->
                 <div class="the-team"></div>
                 <!-- Start if latest-work -->
-                <div class="latest-work"></div>
+                <div class="latest-projects"></div>
                 <!-- Start if customer-feedback -->
-                <div class="customer-feedback"></div>
+                <div class="reviews"></div>
                 <!-- Start if footer-section -->
-                <footer class="footer-section"></footer>
+                <footer class="footer"></footer>
               </div>
             </div>
           </div>
@@ -230,18 +238,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="features/scroll-effect.js"></script>
     <script src="features/pusher-feature.js"></script>
-    <script>
-      window.addEventListener("scroll", function () {
-        var header = document.querySelector(".header");
-        var scrollPosition = window.scrollY;
-
-        if (scrollPosition > 100) {
-          // change the value as you prefer
-          header.style.backgroundColor = "white"; // white color
-        } else {
-          header.style.backgroundColor = "transparent";
-        }
-      });
-    </script>
+    <script src="features/navbar.js"></script>
   </body>
 </html>
