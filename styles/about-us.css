@@ -58,8 +58,12 @@
     height: 728px;
     width: 100%;
     border-radius: 0 0 183px 0;
-    background-image: url('https://symphony.cdn.tambourine.com/the-palms-resort-and-spa-spa/media/cache/spa-homepage-beauty-pollandbeachaccess-63e2b8c0bdec6-570x640.jpg');
+    background-image: url("/images-vids/about-palms.png");
+    background-position: center center;  /* This will center the background image */
+    background-repeat: no-repeat;  /* This ensures the image doesn't repeat */
+    background-size: cover;  /* This will make sure the image covers the whole element, you can adjust as needed */
 }
+
 .main-container__content--right {
     width: 50%;
     background-color: #0A0C1C;
