@@ -1,7 +1,13 @@
+/* Base Styles */
+
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-size: 16px;
 }
 
 a {
@@ -14,27 +20,131 @@ a {
   box-sizing: border-box;
   width: 100%;
 }
-.site-content {
-  padding-top: 66px;
+
+.webmadewell {
+  background-color: white;
 }
 
+/* Typography */
+
+h1 {
+  font-family: "Montserrat-Alt1", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.333vw;
+}
+
+h2 {
+  font-family: "anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 9.375vw;
+  line-height: 0.999em;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.2604vw;
+  line-height: 0px;
+}
+
+/* Header & Logo */
+
 .header .main-logo {
-    width: 5px;
+  width: 5px;
 }
 
 .main-logo-svg {
   display: none;
 }
 
-/* RESPONSIVE */
+.sample-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url("https://bq47.short.gy/main-background");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sample-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.sample-header-section {
+  position: relative;
+  padding: 10% 0 10%;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat-Alt1";
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.site-content {
+  padding-top: 66px;
+}
+
+/* Other Sections & Logos */
+
+.sample-section-wrap {
+  position: relative;
+  background-color: white;
+  margin-top: 100vh;
+  height: 1000vh;
+  width: 100vw;
+}
+
+.kvasola-logo {
+  text-align: end;
+  height: 10vh;
+}
+
+.kvasola-logo img {
+  position: absolute;
+  top: -2rem;
+  left: 90vw;
+  width: 70px;
+}
+
+.sample-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Media Queries */
+
 @media only screen and (max-width: 768px) {
-.site-pusher,
-.site-container {
+  .site-pusher,
+  .site-container {
     height: 100%;
   }
+
   .site-container {
     overflow: hidden;
   }
+
   .site-pusher {
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
@@ -46,6 +156,7 @@ a {
     -o-transform: translateX(0px);
     transform: translateX(0px);
   }
+
   .site-content {
     position: absolute;
     top: 66px;
@@ -56,11 +167,13 @@ a {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
+
   .main-logo-svg {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .with--sidebar .site-pusher {
     -webkit-transform: translateX(250px);
     -moz-transform: translateX(250px);
@@ -77,3 +190,10 @@ a {
     background-color: rgba(0, 0, 0, 0.6);
   }
 }
+
+
+@media only screen and (max-width: 767px) {}               - (Mobile Devices)
+@media only screen and (min-width: 768px) and (max-width: 991px) {}   - (Tablets in Portrait & Landscape)
+@media only screen and (min-width: 992px) and (max-width: 1023px) {}  - (Small Desktops & Large Tablets in Landscape)
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {} - (Desktops)
+@media only screen and (min-width: 1200px) {}              - (Large Desktop)
